@@ -18,6 +18,8 @@ if aktivitas.lower() == "sarapan":
 
     if menu.lower () == "telur" or menu.lower () == "ikan" or menu.lower() == "nugget":
         print (f"OK, {menu} tersedia. Silahkan memasaknya terlebih dahulu ya!")
+    else:
+        print (f"Yah bahannya tidak ada, yuk kita beli dulu!")
 
 elif aktivitas.lower () == "pergi kerja":
     waktu = datetime.now()
